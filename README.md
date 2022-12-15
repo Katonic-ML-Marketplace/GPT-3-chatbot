@@ -15,7 +15,6 @@ Where "xxxxxxxxxxx" corresponds to your secret key.
 ## Run the Chatbot App
 
 clone the repo
-
 ```
 https://github.com/Katonic-ML-Marketplace/GPT-3-chatbot.git
 ```
