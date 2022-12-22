@@ -58,7 +58,7 @@ def textbox(text, box="AI", name="Katonic"):
 openai.api_key = os.getenv("OPENAI_KEY")
 
 # Define app
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], url_base_pathname=os.getenv("ROUTE") or "/")
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], url_base_pathname=os.getenv("ROUTE"))
 server = app.server
 app.title = "GPT-3 Chatbot"
 
